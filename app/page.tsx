@@ -27,13 +27,14 @@ const POINT_ZONE_PERCENTAGE_DEFAULT = 50;
 
 const questions: Question[] = [
   {
-    id: 1,
+    id: 9,
     question:
-      "Stand 2021 hatte die Stadt Wien die meisten Daten auf OpenData.gv.at veröffentlicht, mit insgesamt 551 Datensätzen. Die Gemeinde Engerwitzdorf veröffentlichte am zweit meisten Datensätze. Wie viele waren es?",
-    answer: 514,
-    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
-    sourceUrl: "https://drawingdata.net/datagvat/",
-    lastChangeOfData: "18. November 2021",
+      "Wie viele Steuermittel in Milliarden Euro sind von Staatshilfen für Corona, Energie und Teurung an Unternehmen geflossen?",
+    answer: 28.7,
+    pointZonePercentage: 30,
+    sourceUrl:
+      "https://www.derstandard.at/story/2000143809538/trotz-wirtschaftsbooms-staatshilfen-in-milliardenhoehe",
+    lastChangeOfData: "22. Februar 2023",
     category: "Anzahl",
   },
   {
@@ -48,18 +49,6 @@ const questions: Question[] = [
     category: "Anzahl",
   },
   {
-    id: 3,
-    question: "Es wie Viele Werbeflächen gibt es in Wien?",
-    answer: 18703,
-    annotation:
-      "Typische Werbeflächen, die sehr häufig im Stadtbild und auf öffentlichem Gut anzutreffen sind: - Rolling Boards - Plakatwände - City Lights in Wartehallen oder Telefonzellen - City Lights frei stehend - Leuchtsäulen - Litfaßsäulen (Kulturwerbung) - Miniposter (Halbschalen) an Lichtmasten (Kulturwerbung) - Flachschilder auf Lichtmasten",
-    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
-    sourceUrl:
-      "https://www.data.gv.at/katalog/dataset/82c36af8-4a5c-4c01-8df7-c19efd5ba7d9#resources",
-    lastChangeOfData: "24. April 2023",
-    category: "Anzahl",
-  },
-  {
     id: 4,
     question:
       '"Nimm ein Sackerl fürs Gackerl" steht meistens oben: Wie viele Hundekotsackerlspender gibt es in Wien?',
@@ -68,16 +57,6 @@ const questions: Question[] = [
     sourceUrl:
       "https://www.data.gv.at/katalog/dataset/98908792-f315-4834-9b5e-20fed66cbe5a#resources",
     lastChangeOfData: "15. April 2020",
-    category: "Anzahl",
-  },
-  {
-    id: 5,
-    question:
-      "Ziemlich fürn Arsch: Wie viele Rollen Klopapier (2 lagig, Kleinrolle) kaufte die Stadt Wien im Herbst 2022?",
-    answer: 610000,
-    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
-    sourceUrl: "https://www.wien.gv.at/Vergabeportal/Detail/130519",
-    lastChangeOfData: "30. Juni 2022",
     category: "Anzahl",
   },
   {
@@ -115,14 +94,13 @@ const questions: Question[] = [
     category: "Anzahl",
   },
   {
-    id: 9,
+    id: 5,
     question:
-      "Wie viele Steuermittel in Milliarden Euro sind von Staatshilfen für Corona, Energie und Teurung an UNTERNEHMEN geflossen?",
-    answer: 28.7,
-    pointZonePercentage: 30,
-    sourceUrl:
-      "https://www.derstandard.at/story/2000143809538/trotz-wirtschaftsbooms-staatshilfen-in-milliardenhoehe",
-    lastChangeOfData: "22. Februar 2023",
+      "Ziemlich fürn Arsch: Wie viele Rollen Klopapier (2 lagig, Kleinrolle) kaufte die Stadt Wien im Herbst 2022?",
+    answer: 610000,
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl: "https://www.wien.gv.at/Vergabeportal/Detail/130519",
+    lastChangeOfData: "30. Juni 2022",
     category: "Anzahl",
   },
   {
@@ -134,6 +112,28 @@ const questions: Question[] = [
     sourceUrl:
       "https://www.spiegel.de/panorama/pille-danach-verkaufszahlen-sind-gestiegen-seit-sie-rezeptfrei-ist-a-00000000-0003-0001-0000-000002710996",
     lastChangeOfData: "06. August 2018",
+    category: "Anzahl",
+  },
+  {
+    id: 3,
+    question: "Es wie Viele Werbeflächen gibt es in Wien?",
+    answer: 18703,
+    annotation:
+      "Typische Werbeflächen, die sehr häufig im Stadtbild und auf öffentlichem Gut anzutreffen sind: - Rolling Boards - Plakatwände - City Lights in Wartehallen oder Telefonzellen - City Lights frei stehend - Leuchtsäulen - Litfaßsäulen (Kulturwerbung) - Miniposter (Halbschalen) an Lichtmasten (Kulturwerbung) - Flachschilder auf Lichtmasten",
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl:
+      "https://www.data.gv.at/katalog/dataset/82c36af8-4a5c-4c01-8df7-c19efd5ba7d9#resources",
+    lastChangeOfData: "24. April 2023",
+    category: "Anzahl",
+  },
+  {
+    id: 1,
+    question:
+      "Stand 2021 hatte die Stadt Wien die meisten Daten auf OpenData.gv.at veröffentlicht, mit insgesamt 551 Datensätzen. Die Gemeinde Engerwitzdorf veröffentlichte am zweit meisten Datensätze. Wie viele waren es?",
+    answer: 514,
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl: "https://drawingdata.net/datagvat/",
+    lastChangeOfData: "18. November 2021",
     category: "Anzahl",
   },
 ];
