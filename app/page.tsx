@@ -116,7 +116,7 @@ const questions: Question[] = [
   },
   {
     id: 3,
-    question: "Es wie Viele Werbeflächen gibt es in Wien?",
+    question: "Wie viele Werbeflächen gibt es in Wien?",
     answer: 18703,
     annotation:
       "Typische Werbeflächen, die sehr häufig im Stadtbild und auf öffentlichem Gut anzutreffen sind: - Rolling Boards - Plakatwände - City Lights in Wartehallen oder Telefonzellen - City Lights frei stehend - Leuchtsäulen - Litfaßsäulen (Kulturwerbung) - Miniposter (Halbschalen) an Lichtmasten (Kulturwerbung) - Flachschilder auf Lichtmasten",
@@ -134,6 +134,67 @@ const questions: Question[] = [
     pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
     sourceUrl: "https://drawingdata.net/datagvat/",
     lastChangeOfData: "18. November 2021",
+    category: "Anzahl",
+  },
+  {
+    id: 11,
+    question:
+      "Der Nettogewinn von Apple war zwischen 2020 und 2022 war 251,91 Milliarden US-Dollar. Wie viele Steuern zahlte Apple in diesem Zeitraum?",
+    answer: 61970000000,
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl: "Peter Schlapfer, PG Digitalisierung",
+    lastChangeOfData: "26. April 2023",
+    category: "Anzahl",
+  },
+  {
+    id: 12,
+    question:
+      "Wie viel Grad hätte es auf der Erde ohne dem natürlichen Treibhausgaseffekt?",
+    answer: -18,
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl: "Angelina Sax, PG Nachhaltigkeit",
+    lastChangeOfData: "26. April 2023",
+    category: "Anzahl",
+  },
+  {
+    id: 13,
+    question:
+      "Wie hoch ist der Tagsatz des durchschnittlichen Arbeitslosengelds in Österreich?",
+    answer: 35.2,
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl: "Elias Ehlers, PG Arbeit und Soziales",
+    lastChangeOfData: "26. April 2023",
+    category: "Anzahl",
+  },
+  {
+    id: 14,
+    question:
+      "Es gibt 248.200 Schüler:innen und 721 in Wien. Wie viel Lehrpersonen gibt es in Wien?",
+    answer: 25000,
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl: "Maximiliane Radl, PG Bildung",
+    lastChangeOfData: "26. April 2023",
+    category: "Anzahl",
+  },
+  {
+    id: 15,
+    question:
+      "Wie viele Views hatte das meist gesehene Reel des @jungegenerationwien Instagram Accounts?",
+    answer: 142000,
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl: "Jasmina Malkoč, PG Multimedia",
+    lastChangeOfData: "26. April 2023",
+    category: "Anzahl",
+  },
+  {
+    id: 16,
+    question:
+      "Wie viele Abgeordnete haben alle Parlamente der EU Mitgliedsstaaten zusammen?",
+    annotation: "Beide Kammern",
+    answer: 7822,
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl: "Philipp Kapfer, PG Europa",
+    lastChangeOfData: "26. April 2023",
     category: "Anzahl",
   },
 ];
