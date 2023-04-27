@@ -27,52 +27,7 @@ const POINT_ZONE_PERCENTAGE_DEFAULT = 50;
 
 const questions: Question[] = [
   {
-    id: 9,
-    question:
-      "Wie viele Steuermittel in Milliarden Euro sind von Staatshilfen für Corona, Energie und Teurung an Unternehmen geflossen?",
-    answer: 28.7,
-    pointZonePercentage: 30,
-    sourceUrl:
-      "https://www.derstandard.at/story/2000143809538/trotz-wirtschaftsbooms-staatshilfen-in-milliardenhoehe",
-    lastChangeOfData: "22. Februar 2023",
-    category: "Anzahl",
-  },
-  {
-    id: 2,
-    question:
-      "Es gibt in Wien 1037 Ampeln mit Akustikkennung. Wie viele gibt es OHNE Akustikkennung?",
-    answer: 298,
-    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
-    sourceUrl:
-      "https://www.data.gv.at/katalog/dataset/c5cf2502-7572-4fd1-a836-48b335a2d47d#resources",
-    lastChangeOfData: "15. April 2020",
-    category: "Anzahl",
-  },
-  {
-    id: 4,
-    question:
-      '"Nimm ein Sackerl fürs Gackerl" steht meistens oben: Wie viele Hundekotsackerlspender gibt es in Wien?',
-    answer: 4043,
-    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
-    sourceUrl:
-      "https://www.data.gv.at/katalog/dataset/98908792-f315-4834-9b5e-20fed66cbe5a#resources",
-    lastChangeOfData: "15. April 2020",
-    category: "Anzahl",
-  },
-  {
-    id: 6,
-    question:
-      "Wie weit ist der nähste Spielplatz vom Stephansplatz entfernt? (In Meter, Luftlinie)",
-    answer: 649,
-    annotationAnswer: "Es ist der Spielplatz 'Rudolfspark' im 1. Bezirk",
-    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
-    sourceUrl:
-      "https://www.data.gv.at/katalog/dataset/bd8b518b-d812-46f9-b367-4c1b660cfc99",
-    lastChangeOfData: "15. April 2020",
-    category: "Distanz",
-  },
-  {
-    id: 7,
+    id: 1,
     question: "Wie viele Wörter hat Karl Marx' 'Das Kapital' (Band 1)?",
     answer: 196172,
     annotation:
@@ -83,7 +38,79 @@ const questions: Question[] = [
     category: "Anzahl",
   },
   {
+    id: 2,
+    question:
+      "Wie viele Steuermittel in Milliarden Euro sind von Staatshilfen für Corona, Energie und Teurung an Unternehmen geflossen?",
+    answer: 28.7,
+    pointZonePercentage: 30,
+    sourceUrl:
+      "https://www.derstandard.at/story/2000143809538/trotz-wirtschaftsbooms-staatshilfen-in-milliardenhoehe",
+    lastChangeOfData: "22. Februar 2023",
+    category: "Anzahl",
+  },
+  {
+    id: 3,
+    question:
+      "Wie viel Grad hätte es auf der Erde ohne dem natürlichen Treibhausgaseffekt?",
+    answer: -18,
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl: "Angelina Sax, PG Nachhaltigkeit",
+    lastChangeOfData: "26. April 2023",
+    category: "Anzahl",
+  },
+  {
+    id: 4,
+    question:
+      "Wie hoch ist der Tagsatz des durchschnittlichen Arbeitslosengelds in Österreich?",
+    answer: 35.2,
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl: "Elias Ehlers, PG Arbeit und Soziales",
+    lastChangeOfData: "26. April 2023",
+    category: "Anzahl",
+  },
+  {
+    id: 5,
+    question:
+      "Es gibt 248.200 Schüler:innen und 721 in Wien. Wie viel Lehrpersonen gibt es in Wien?",
+    answer: 25000,
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl: "Maximiliane Radl, PG Bildung",
+    lastChangeOfData: "26. April 2023",
+    category: "Anzahl",
+  },
+  {
+    id: 6,
+    question:
+      "Wie viele Views hatte das meist gesehene Reel des @jungegenerationwien Instagram Accounts?",
+    answer: 142000,
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl: "Jasmina Malkoč, PG Multimedia",
+    lastChangeOfData: "26. April 2023",
+    category: "Anzahl",
+  },
+  {
+    id: 7,
+    question:
+      "Wie viele Abgeordnete haben alle Parlamente der EU Mitgliedsstaaten zusammen?",
+    annotation: "Beide Kammern",
+    answer: 7822,
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl: "Philipp Kapfer, PG Europa",
+    lastChangeOfData: "26. April 2023",
+    category: "Anzahl",
+  },
+  {
     id: 8,
+    question:
+      "Der Nettogewinn von Apple war zwischen 2020 und 2022 war 251,91 Milliarden US-Dollar. Wie viele Steuern zahlte Apple in diesem Zeitraum?",
+    answer: 61970000000,
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl: "Peter Schlapfer, PG Digitalisierung",
+    lastChangeOfData: "26. April 2023",
+    category: "Anzahl",
+  },
+  {
+    id: 9,
     question:
       "Im Jahr 2019 lag das durchschnittliche Alter der Mutter zum Zeitpunkt der Geburt bei 31,2 Jahren. Wie hoch war das durchschnittliche Alter im Jahr 1989?",
     answer: 26.8,
@@ -91,16 +118,6 @@ const questions: Question[] = [
     sourceUrl:
       "https://oesterreich.orf.at/stories/3066164/#:~:text=Das%20durchschnittliche%20Alter%20der%20Mutter,auf%20aktuell%2029%2C9%20Jahre",
     lastChangeOfData: "10. September 2020",
-    category: "Anzahl",
-  },
-  {
-    id: 5,
-    question:
-      "Ziemlich fürn Arsch: Wie viele Rollen Klopapier (2 lagig, Kleinrolle) kaufte die Stadt Wien im Herbst 2022?",
-    answer: 610000,
-    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
-    sourceUrl: "https://www.wien.gv.at/Vergabeportal/Detail/130519",
-    lastChangeOfData: "30. Juni 2022",
     category: "Anzahl",
   },
   {
@@ -115,7 +132,40 @@ const questions: Question[] = [
     category: "Anzahl",
   },
   {
-    id: 3,
+    id: 11,
+    question:
+      "Ziemlich fürn Arsch: Wie viele Rollen Klopapier (2 lagig, Kleinrolle) kaufte die Stadt Wien im Herbst 2022?",
+    answer: 610000,
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl: "https://www.wien.gv.at/Vergabeportal/Detail/130519",
+    lastChangeOfData: "30. Juni 2022",
+    category: "Anzahl",
+  },
+  {
+    id: 12,
+    question:
+      "Wie weit ist der nähste Spielplatz vom Stephansplatz entfernt? (In Meter, Luftlinie)",
+    answer: 649,
+    annotationAnswer: "Es ist der Spielplatz 'Rudolfspark' im 1. Bezirk",
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl:
+      "https://www.data.gv.at/katalog/dataset/bd8b518b-d812-46f9-b367-4c1b660cfc99",
+    lastChangeOfData: "15. April 2020",
+    category: "Distanz",
+  },
+  {
+    id: 13,
+    question:
+      '"Nimm ein Sackerl fürs Gackerl" steht meistens oben: Wie viele Hundekotsackerlspender gibt es in Wien?',
+    answer: 4043,
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl:
+      "https://www.data.gv.at/katalog/dataset/98908792-f315-4834-9b5e-20fed66cbe5a#resources",
+    lastChangeOfData: "15. April 2020",
+    category: "Anzahl",
+  },
+  {
+    id: 14,
     question: "Wie viele Werbeflächen gibt es in Wien?",
     answer: 18703,
     annotation:
@@ -126,75 +176,26 @@ const questions: Question[] = [
     lastChangeOfData: "24. April 2023",
     category: "Anzahl",
   },
+
   {
-    id: 1,
+    id: 15,
+    question:
+      "Es gibt in Wien 1037 Ampeln mit Akustikkennung. Wie viele gibt es OHNE Akustikkennung?",
+    answer: 298,
+    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
+    sourceUrl:
+      "https://www.data.gv.at/katalog/dataset/c5cf2502-7572-4fd1-a836-48b335a2d47d#resources",
+    lastChangeOfData: "15. April 2020",
+    category: "Anzahl",
+  },
+  {
+    id: 16,
     question:
       "Stand 2021 hatte die Stadt Wien die meisten Daten auf OpenData.gv.at veröffentlicht, mit insgesamt 551 Datensätzen. Die Gemeinde Engerwitzdorf veröffentlichte am zweit meisten Datensätze. Wie viele waren es?",
     answer: 514,
     pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
     sourceUrl: "https://drawingdata.net/datagvat/",
     lastChangeOfData: "18. November 2021",
-    category: "Anzahl",
-  },
-  {
-    id: 11,
-    question:
-      "Der Nettogewinn von Apple war zwischen 2020 und 2022 war 251,91 Milliarden US-Dollar. Wie viele Steuern zahlte Apple in diesem Zeitraum?",
-    answer: 61970000000,
-    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
-    sourceUrl: "Peter Schlapfer, PG Digitalisierung",
-    lastChangeOfData: "26. April 2023",
-    category: "Anzahl",
-  },
-  {
-    id: 12,
-    question:
-      "Wie viel Grad hätte es auf der Erde ohne dem natürlichen Treibhausgaseffekt?",
-    answer: -18,
-    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
-    sourceUrl: "Angelina Sax, PG Nachhaltigkeit",
-    lastChangeOfData: "26. April 2023",
-    category: "Anzahl",
-  },
-  {
-    id: 13,
-    question:
-      "Wie hoch ist der Tagsatz des durchschnittlichen Arbeitslosengelds in Österreich?",
-    answer: 35.2,
-    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
-    sourceUrl: "Elias Ehlers, PG Arbeit und Soziales",
-    lastChangeOfData: "26. April 2023",
-    category: "Anzahl",
-  },
-  {
-    id: 14,
-    question:
-      "Es gibt 248.200 Schüler:innen und 721 in Wien. Wie viel Lehrpersonen gibt es in Wien?",
-    answer: 25000,
-    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
-    sourceUrl: "Maximiliane Radl, PG Bildung",
-    lastChangeOfData: "26. April 2023",
-    category: "Anzahl",
-  },
-  {
-    id: 15,
-    question:
-      "Wie viele Views hatte das meist gesehene Reel des @jungegenerationwien Instagram Accounts?",
-    answer: 142000,
-    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
-    sourceUrl: "Jasmina Malkoč, PG Multimedia",
-    lastChangeOfData: "26. April 2023",
-    category: "Anzahl",
-  },
-  {
-    id: 16,
-    question:
-      "Wie viele Abgeordnete haben alle Parlamente der EU Mitgliedsstaaten zusammen?",
-    annotation: "Beide Kammern",
-    answer: 7822,
-    pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
-    sourceUrl: "Philipp Kapfer, PG Europa",
-    lastChangeOfData: "26. April 2023",
     category: "Anzahl",
   },
 ];
