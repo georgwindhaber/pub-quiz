@@ -71,7 +71,7 @@ const questions: Question[] = [
   {
     id: 5,
     question:
-      "Es gibt 248.200 Schüler:innen und 721 in Wien. Wie viel Lehrpersonen gibt es in Wien?",
+      "Es gibt 248.200 Schüler:innen und 721 Schulen in Wien. Wie viel Lehrpersonen gibt es in Wien?",
     answer: 25000,
     pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
     sourceUrl: "Maximiliane Radl, PG Bildung",
@@ -103,7 +103,8 @@ const questions: Question[] = [
     id: 8,
     question:
       "Der Nettogewinn von Apple war zwischen 2020 und 2022 war 251,91 Milliarden US-Dollar. Wie viele Steuern zahlte Apple in diesem Zeitraum?",
-    answer: 61970000000,
+    answer: 61.96986,
+    annotationAnswer: "24.6%",
     pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
     sourceUrl: "Peter Schlapfer, PG Digitalisierung",
     lastChangeOfData: "26. April 2023",
