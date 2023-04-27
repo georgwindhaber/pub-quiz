@@ -205,7 +205,7 @@ const teams: Team[] = [
   {
     id: 1,
     name: "Team Right",
-    answers: [100, 100, 100, 100],
+    answers: [196172, 100, 100, 100],
   },
   {
     id: 2,
@@ -242,6 +242,18 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center space-y-4">
         <h1 className="text-6xl font-bold">JG Pub Quiz</h1>
         <h2 className="text-2xl font-bold">Results</h2>
+        {teams.map((team, index) => {
+          let teamPoints = 0;
+          for (let i = 0; i < team.answers.length; i++) {
+            teamPoints += calculatePoints(questions[i], team.answers[i]);
+          }
+          return (
+            <div key={team.id}>
+              {team.name}: {teamPoints}
+            </div>
+          );
+        })}
+
         {questions.map((question, index) => {
           return (
             <div key={question.id}>
@@ -261,6 +273,18 @@ export default function Home() {
                   );
                 })}
               </div>
+              {/* <div className="flex flex-row gap-3 mt-2">
+                {teams.map((team) => {
+                  return (
+                    <div key={team.id} className="p-3 bg-slate-900 rounded-md">
+                      <div>{team.name}: </div>
+                      <div className="text-center font-semibold">
+                        {calculatePoints(question, team.answers[index])}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div> */}
             </div>
           );
         })}
