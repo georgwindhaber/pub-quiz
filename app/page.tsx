@@ -82,7 +82,7 @@ const questions: Question[] = [
     id: 6,
     question:
       "Wie viele Views hatte das meist gesehene Reel des @jungegenerationwien Instagram Accounts?",
-    answer: 142000,
+    answer: 14200,
     pointZonePercentage: POINT_ZONE_PERCENTAGE_DEFAULT,
     sourceUrl: "Jasmina Malkoč, PG Multimedia",
     lastChangeOfData: "26. April 2023",
@@ -204,23 +204,35 @@ const questions: Question[] = [
 const teams: Team[] = [
   {
     id: 1,
-    name: "Team Right",
-    answers: [196172, 100, 100, 100],
+    name: "Team Tisch Hinten",
+    answers: [250000, 68, 11, 25.5, 17000, 80000, 7500, 8, 25, 1500000],
   },
   {
     id: 2,
-    name: "Team Wrong",
-    answers: [0, 200, 0, 200],
+    name: "Team Tisch Mitte",
+    answers: [
+      480000, 55, -18, 32.68, 24859, 13721, 9450.5, 2.87, 24.6, 17000000,
+    ],
   },
   {
     id: 3,
-    name: "Team Close",
-    answers: [99, 101, 99, 101],
+    name: "Team Tisch Vorne (Neues vom Dauerzustand)",
+    answers: [200000, 43, -273, 28.95, 26000, 100000, 6200, 5, 27, 5000000],
   },
   {
     id: 4,
-    name: "Team Far",
-    answers: [51, 124, 90, 105],
+    name: "Team Bänke Vorne",
+    answers: [280000, 43, 15, 25, 16000, 70000, 12000, 5, 26.3, 500000],
+  },
+  {
+    id: 5,
+    name: "Team Bänke Hinten",
+    answers: [230000, 54, -69, 26.5, 38000, 35000, 13000, 3, 22, 250000],
+  },
+  {
+    id: 5,
+    name: "Team Ausgang",
+    answers: [199000, 39, 13.9, 30.9, 25900, 50900, 5900, 19.9, 27.9, 2900000],
   },
 ];
 
